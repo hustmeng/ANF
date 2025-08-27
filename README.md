@@ -12,4 +12,4 @@ ANF (Action-based Neural Flow) is a neural simulation framework designed to effi
 # Usage
 **Training:** Train ANF using physics-guided, action-based optimization to learn the transformation from input distribution to target distribution.
 **Inference:** Generate independent LFT configurations in parallel with reduced computational cost and improved sampling efficiency.
-**Fine-Tuning: ** Adapt to new lattice action parameters using LoRA-based fine-tuning for rapid transfer without retraining the entire model.
+**Fine-Tuning:** Adapt to new lattice action parameters using LoRA-based fine-tuning for rapid transfer without retraining the entire model.
