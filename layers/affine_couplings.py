@@ -3,7 +3,7 @@
 import torch
 
 from layers import flow as nf
-from layers import unet
+#from layers import unet
 from layers.mixer import MLPMixer
 
 def make_checker_mask(shape, parity, device):
