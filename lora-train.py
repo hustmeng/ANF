@@ -96,8 +96,8 @@ lattice_shape = (L, L)
 action = phi4.ScalarPhi4Action(args.mass2, args.lamda)
 loss_function = getattr(training.loss, f"{args.loss}_loss")
 
-model_cfg = {'n_layers': 32,
-             'hidden_feature': 18,
+model_cfg = {'n_layers': 20,
+             'hidden_feature': 32,
              'patch_size':3,
              'depth': 5, 
              'lattice_shape': lattice_shape
