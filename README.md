@@ -13,7 +13,16 @@ ANF is a neural simulation framework designed to efficiently generate independen
 
 # Usage
 **Training:** Train ANF using physics-guided, action-based optimization to learn the transformation from input distribution to target distribution.
+“python train.py”
+
+**Fine-Tuning:** Adapt to new lattice action parameters using LoRA-based fine-tuning for rapid transfer without retraining the entire model. Meanwhile, a programming error was introduced into the analogue weights to simulate the compensatory effect of LoRA (digital) on analogue programming errors.
+
+“python lora-train.py”
+
 
 **Inference:** Generate independent LFT configurations in parallel with reduced computational cost and improved sampling efficiency.
 
-**Fine-Tuning:** Adapt to new lattice action parameters using LoRA-based fine-tuning for rapid transfer without retraining the entire model.
+“python inference.py”
+
+
+**More content will be gradually added before the publication of the article.**
