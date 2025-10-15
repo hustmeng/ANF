@@ -101,7 +101,7 @@ loss_function = getattr(training.loss, f"{args.loss}_loss")
 #  Model parameters
 
 model_cfg = {'n_layers': 20,
-             'hidden_feature': 18,
+             'hidden_feature': 32,
              'patch_size':3,
              'depth': 5,
              'lattice_shape': lattice_shape
